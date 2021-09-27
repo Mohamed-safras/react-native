@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+.continer {
+  top: 100px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 450px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.card > p {
+  text-align: center;
+  padding: 10px;
+  color: rgb(31, 36, 109);
+}
+.card > .random {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: hsl(205, 86%, 17%);
+  background-color: hsl(205, 90%, 76%);
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 10px;
+}
+.prev-btn,
+.next-btn {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 30px;
+  color: hsl(205, 86%, 17%);
+  background-color: hsl(205, 90%, 76%);
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 10px;
+  align-items: center;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 999px;
+  padding: 10px;
+  display: block;
+}
+
+.des {
+  margin-bottom: 1.25rem;
+  color: hsl(210, 22%, 49%);
+}
+
+.name {
+  margin-bottom: 0.25rem;
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+.job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: hsl(205, 78%, 60%);
+  font-size: 0.85rem;
+}
+
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: hsl(205, 78%, 60%);
+  margin-left: auto;
+  margin-right: auto;
+}
